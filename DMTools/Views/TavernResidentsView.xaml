@@ -1,0 +1,46 @@
+﻿<Window x:Class="DMTools.Views.TavernResidentsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DMTools.Views"
+        mc:Ignorable="d"
+        Title="TavernResidentsView" MinHeight="450" MinWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
+        <WrapPanel x:Name="TavernPatronToolbar" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="Add3Patron" x:Uid="three" Content="Add 3 Patrons" Margin="20" Width="100" Height="30" Click="TavernResidentButton_Click"/>
+            <Button x:Name="Add5Patron" x:Uid="five" Content="Add 5 Patrons" Margin="20" Width="100" Height="30" Click="TavernResidentButton_Click"/>
+            <Button x:Name="Add10Patron" x:Uid="ten" Content="Add 10 Patrons" Margin="20" Width="100" Height="30" Click="TavernResidentButton_Click"/>
+            <TextBox x:Name="XPatronValueBox" Margin="20,20,5,20" Width="30" Height="20" Text="0" TextAlignment="Center"/>
+            <Button x:Name="AddXPatron" x:Uid="x" Content="Add X Patrons" Margin="5,20,20,20" Width="100" Height="30" Click="TavernResidentButton_Click"/>
+        </WrapPanel>
+        <DataGrid x:Name="TavernPatronList" Margin="10" AutoGenerateColumns="False" Grid.Row="1">
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding TeamNr}" Value="0">
+                            <Setter Property="Background" Value="WhiteSmoke"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding TeamNr}" Value="1">
+                            <Setter Property="Background" Value="CadetBlue"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding TeamNr}" Value="2">
+                            <Setter Property="Background" Value="DarkOrange"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.RowStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Race" Binding="{Binding Race}"/>
+                <DataGridTextColumn Header="Class" Binding="{Binding Class}"/>
+                <DataGridTextColumn Header="Gender" Binding="{Binding Gender}"/>
+                <DataGridTextColumn Header="Adjective" Binding="{Binding Adjective}"/>
+                <DataGridTextColumn Header="Verb" Binding="{Binding Verb}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

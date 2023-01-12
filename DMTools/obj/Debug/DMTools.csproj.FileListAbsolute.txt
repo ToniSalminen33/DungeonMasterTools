@@ -1,0 +1,17 @@
+C:\Users\Tuufi\source\repos\DMToolsApp\DMTools\bin\Debug\DMTools.exe.config
+C:\Users\Tuufi\source\repos\DMToolsApp\DMTools\bin\Debug\DMTools.exe
+C:\Users\Tuufi\source\repos\DMToolsApp\DMTools\bin\Debug\DMTools.pdb
+C:\Users\Tuufi\source\repos\DMToolsApp\DMTools\obj\Debug\DMTools.csproj.AssemblyReference.cache
+C:\Users\Tuufi\source\repos\DMToolsApp\DMTools\obj\Debug\DMTools.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tuufi\source\repos\DMToolsApp\DMTools\obj\Debug\MainWindow.g.cs
+C:\Users\Tuufi\source\repos\DMToolsApp\DMTools\obj\Debug\App.g.cs
+C:\Users\Tuufi\source\repos\DMToolsApp\DMTools\obj\Debug\DMTools_MarkupCompile.cache
+C:\Users\Tuufi\source\repos\DMToolsApp\DMTools\obj\Debug\DMTools_MarkupCompile.lref
+C:\Users\Tuufi\source\repos\DMToolsApp\DMTools\obj\Debug\MainWindow.baml
+C:\Users\Tuufi\source\repos\DMToolsApp\DMTools\obj\Debug\DMTools.g.resources
+C:\Users\Tuufi\source\repos\DMToolsApp\DMTools\obj\Debug\DMTools.Properties.Resources.resources
+C:\Users\Tuufi\source\repos\DMToolsApp\DMTools\obj\Debug\DMTools.csproj.GenerateResource.cache
+C:\Users\Tuufi\source\repos\DMToolsApp\DMTools\obj\Debug\DMTools.csproj.CoreCompileInputs.cache
+C:\Users\Tuufi\source\repos\DMToolsApp\DMTools\obj\Debug\DMTools.exe
+C:\Users\Tuufi\source\repos\DMToolsApp\DMTools\obj\Debug\DMTools.pdb
+C:\Users\Tuufi\source\repos\DMToolsApp\DMTools\obj\Debug\Views\TavernResidentsView.g.cs
